@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+git pull
+
+git add .
+
+read -p "write your commit message: " msg
+git commit -m "$msg"
+
+git push
